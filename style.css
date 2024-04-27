@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none;
+}
+.mynavbar {
+  padding: 20px 0px;
+  background-color: red;
+  height: 100%;
+  /* z-index: 99; */
+}
+.mynavbar a {
+  font-weight: 700;
+  color: #fff;
+  margin-left: 20px;
+}
+.mynavbar a:hover {
+  color: black;
+}
+.Apply_Now {
+  background-color: #ffc107;
+  text-align: center;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.nab-link {
+  color: white !important;
+}
+
+.nab-link:hover {
+  color: black !important;
+}
+.aboutForm {
+  height: 600px;
+  width: 250px;
+  /* border: 2px solid black; */
+  position: absolute;
+  right: 10px;
+  top: -27px;
+  background-color: #fff;
+  padding: 10px 0px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  z-index: 1;
+}
+.hero {
+  background-image: url(./college.jpg);
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  /* border: 2px solid black; */
+  box-sizing: border-box;
+}
+.aboutForm input {
+  padding: 10px;
+  width: 220px;
+  /* margin-left: 15px; */
+  margin-top: 10px;
+}
+.aboutForm h6 {
+  color: red;
+  margin-left: 15px;
+}
+.aboutForm select {
+  padding: 10px;
+  margin-top: 10px;
+  width: 45%;
+}
+.Course {
+  margin-top: 20px !important;
+  width: 220px !important;
+}
+a .aboutForm p {
+  background-color: red;
+  display: inline-block;
+}
+.spanflex {
+  display: flex;
+  padding-top: 20px;
+  align-items: flex-start;
+}
+.ckbox {
+  background-color: red;
+}
+
+.scsbtn {
+  width: 220px;
+  background-color: red !important;
+}
+.Applynow {
+  background-color: red;
+  rotate: 270deg;
+  width: 250px;
+  height: 70px;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 700;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  position: fixed;
+  bottom: 90px;
+  right: -90px;
+}
+
+.CollegeAbout {
+  box-sizing: border-box;
+  padding-top: 30px;
+  height: 40vh;
+  width: 100vw;
+  background-color: #f1eee9;
+  text-align: center;
+}
+.CollegeAbout h2 {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.highlight {
+  color: red;
+}
+
+.Partation {
+  text-align: center;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.sp1 {
+  color: red;
+}
+.sectiondiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 10vh;
+}
+.sectiondiv h5{
+  margin-top: 2vh;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.sectiondiv ul li{
+  font-weight: 700;
+}
+.leftone {
+  background-color: #f1eee9;
+  width: 45vw;
+  height: 110vh;
+  /* border: 2px solid black; */
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.leftone:hover{
+  box-shadow: 0px 0px 5px 10px  #f1eee9;
+}
+.rightone {
+  background-color: #f1eee9;
+  width: 45vw;
+  height: 110vh;
+  /* border: 2px solid black; */
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.rightone:hover{
+  box-shadow: 0px 0px 5px 10px  #f1eee9;
+}
+.imageCourse {
+  margin-top: 10px;
+  height: 55%;
+  width: 540px;
+  background-image: url(https://images.pexels.com/photos/159490/yale-university-landscape-universities-schools-159490.jpeg?auto=compress&cs=tinysrgb&w=600);
+  border-radius: 25px;
+}
+
+.btnApply{
+  position: absolute;
+  width: 20vw;
+  border: 1px solid red;
+  background-color: red;
+  height: 50px;
+  font-weight: 600;
+  bottom: 10px;
+  border-radius: 30px;
+  left: 30%;
+}
+.corseAndDuration{
+  display: flex;
+  justify-content: center;
+}
+.duration_Eligeblity{
+  margin-top: 10vh;
+  width: 92vw;
+  padding: 10px 0px;
+  padding-left: 20px;
+  background-color: #f1eee9;
+}
+.duration_Eligeblity select{
+  padding: 10px;
+  margin-top: 10px;
+  min-width: 98%;
+}
+.VideosContaining{
+  width: 100%;
+  margin-top: 10vh;
+  background-color: #f3f3f3;
+  padding-top: 10vh;
+}
+.spanHeading{
+  text-align: center;
+}
+.spanHeading p {
+  width: 70%;
+  padding-left: 15%;
+}
+.first{
+font-weight: 700;
+font-size: 2rem;
+color: red;
+}
+.Second{
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.containsVideo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video{
+  height: 500px;
+  width: 45%;
+  /* border: 2px solid black; */
+}
+.number{
+  height: 500px;
+  width: 95%;
+  background-color: #fff;
+  position: relative; 
+  /* border: 2px solid black; */
+}
+.number h3{
+  background-color: #183765; 
+  height: 2vh;
+
+}
+
+.information{
+  height: 85%;
+  width: 100%;
+  background-color: #f4f4f4;
+  background-image: url(https://images.pexels.com/photos/668137/pexels-photo-668137.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.imagecl{
+  height: 100%;
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/668137/pexels-photo-668137.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.click{
+  position: absolute;
+  bottom: 10px;
+  width: 60%;
+  border-radius: 50px;
+  left: 20%;
+}
+.advantages{
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.advantages span {
+  margin-left: 10px;
+}
+.symbol{
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container{
+  border-right: 2px solid white;
+}
+.container h2{
+  margin-top: 5vh;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.school{
+  font-size: 4rem;
+}
+.container p{
+  font-weight: 600;
+}
+.Gallery{
+  margin-top: 10vh;
+  padding-top: 5vh;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Gallery h2 {
+  min-width: 100%;
+  text-align: center;
+  color: #ff0000;
+  font-weight: 700;
+}
+
+footer{
+  margin-top: 10vh;
+  height: 80vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  padding-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer h3{
+  text-align: center;
+  min-width: 100%;
+}
+.footpara{
+  text-align: center;
+  min-width: 100%;
+}
+footer span{
+  color: red;
+}
+.footSpan{
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+}
+
+.infoAboutAddress h3{
+   color: #9b9a9a;
+}
+
+.footSpan a {
+  margin-left: 20px;
+  color: white;
+}
