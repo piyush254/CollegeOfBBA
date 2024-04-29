@@ -7,6 +7,9 @@
   padding: 20px 0px;
   background-color: red;
   height: 100%;
+  width: 100%;
+  display: flex;
+  position: relative;
   /* z-index: 99; */
 }
 .mynavbar a {
@@ -18,12 +21,23 @@
   color: black;
 }
 .Apply_Now {
+  /* position: absolute; */
+  /* right: 10%; */
+  height: 50px;
+  padding-right: 15px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  align-self: center;
   background-color: #ffc107;
   text-align: center;
   border-top-left-radius: 7px;
   border-bottom-right-radius: 7px;
+  margin-left: 80%;
 }
-
+.Apply_Now a {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
 .nab-link {
   color: white !important;
 }
@@ -45,7 +59,7 @@
   z-index: 1;
 }
 .hero {
-  background-image: url(./college.jpg);
+  background-image: url(./College_Full_view-1.jpg);
   height: 100vh;
   width: 100vw;
   position: relative;
@@ -71,6 +85,16 @@
   margin-top: 20px !important;
   width: 220px !important;
 }
+
+.highlight {
+  padding-top: 3vh;
+  /* background-color: red; */
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 a .aboutForm p {
   background-color: red;
   display: inline-block;
@@ -137,14 +161,14 @@ a .aboutForm p {
   justify-content: space-evenly;
   padding-top: 10vh;
 }
-.sectiondiv h5{
+.sectiondiv h5 {
   margin-top: 2vh;
   text-align: center;
   font-weight: 700;
   font-size: 1.5rem;
 }
 
-.sectiondiv ul li{
+.sectiondiv ul li {
   font-weight: 700;
 }
 .leftone {
@@ -158,8 +182,8 @@ a .aboutForm p {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
 }
-.leftone:hover{
-  box-shadow: 0px 0px 5px 10px  #f1eee9;
+.leftone:hover {
+  box-shadow: 0px 0px 5px 10px #f1eee9;
 }
 .rightone {
   background-color: #f1eee9;
@@ -172,8 +196,8 @@ a .aboutForm p {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
 }
-.rightone:hover{
-  box-shadow: 0px 0px 5px 10px  #f1eee9;
+.rightone:hover {
+  box-shadow: 0px 0px 5px 10px #f1eee9;
 }
 .imageCourse {
   margin-top: 10px;
@@ -183,7 +207,7 @@ a .aboutForm p {
   border-radius: 25px;
 }
 
-.btnApply{
+.btnApply {
   position: absolute;
   width: 20vw;
   border: 1px solid red;
@@ -194,88 +218,87 @@ a .aboutForm p {
   border-radius: 30px;
   left: 30%;
 }
-.corseAndDuration{
+.corseAndDuration {
   display: flex;
   justify-content: center;
 }
-.duration_Eligeblity{
+.duration_Eligeblity {
   margin-top: 10vh;
   width: 92vw;
   padding: 10px 0px;
   padding-left: 20px;
   background-color: #f1eee9;
 }
-.duration_Eligeblity select{
+.duration_Eligeblity select {
   padding: 10px;
   margin-top: 10px;
   min-width: 98%;
 }
-.VideosContaining{
+.VideosContaining {
   width: 100%;
   margin-top: 10vh;
   background-color: #f3f3f3;
   padding-top: 10vh;
 }
-.spanHeading{
+.spanHeading {
   text-align: center;
 }
 .spanHeading p {
   width: 70%;
   padding-left: 15%;
 }
-.first{
-font-weight: 700;
-font-size: 2rem;
-color: red;
+.first {
+  font-weight: 700;
+  font-size: 2rem;
+  color: red;
 }
-.Second{
+.Second {
   font-weight: 700;
   font-size: 2rem;
 }
 
-.containsVideo{
+.containsVideo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.video{
+.video {
   height: 500px;
   width: 45%;
   /* border: 2px solid black; */
 }
-.number{
+.number {
   height: 500px;
   width: 95%;
   background-color: #fff;
-  position: relative; 
+  position: relative;
   /* border: 2px solid black; */
 }
-.number h3{
-  background-color: #183765; 
+.number h3 {
+  background-color: #183765;
   height: 2vh;
-
 }
 
-.information{
+.information {
   height: 85%;
   width: 100%;
   background-color: #f4f4f4;
   background-image: url(https://images.pexels.com/photos/668137/pexels-photo-668137.jpeg?auto=compress&cs=tinysrgb&w=600);
 }
-.imagecl{
+.imagecl {
   height: 100%;
   width: 100%;
   background-image: url(https://images.pexels.com/photos/668137/pexels-photo-668137.jpeg?auto=compress&cs=tinysrgb&w=600);
 }
-.click{
+.click {
   position: absolute;
   bottom: 10px;
   width: 60%;
   border-radius: 50px;
   left: 20%;
 }
-.advantages{
+.advantages {
   text-align: center;
   padding: 0px 20px;
 }
@@ -283,27 +306,27 @@ color: red;
 .advantages span {
   margin-left: 10px;
 }
-.symbol{
+.symbol {
   margin-top: 5vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.container{
+.container {
   border-right: 2px solid white;
 }
-.container h2{
+.container h2 {
   margin-top: 5vh;
   font-size: 2rem;
   font-weight: 700;
 }
-.school{
+.school {
   font-size: 4rem;
 }
-.container p{
+.container p {
   font-weight: 600;
 }
-.Gallery{
+.Gallery {
   margin-top: 10vh;
   padding-top: 5vh;
   background-color: #f3f3f3;
@@ -320,7 +343,7 @@ color: red;
   font-weight: 700;
 }
 
-footer{
+footer {
   margin-top: 10vh;
   height: 80vh;
   width: 100%;
@@ -333,28 +356,82 @@ footer{
   justify-content: center;
   flex-wrap: wrap;
 }
-footer h3{
+footer h3 {
   text-align: center;
   min-width: 100%;
 }
-.footpara{
+.footpara {
   text-align: center;
   min-width: 100%;
 }
-footer span{
+footer span {
   color: red;
 }
-.footSpan{
+.footSpan {
   display: flex;
   justify-content: center;
   min-width: 100%;
 }
 
-.infoAboutAddress h3{
-   color: #9b9a9a;
+.infoAboutAddress h3 {
+  color: #9b9a9a;
 }
 
 .footSpan a {
   margin-left: 20px;
+  color: white;
+}
+.progHighlights {
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.progleft,
+.progRight {
+  margin-top: 5vh;
+  width: 35%;
+  height: 70vh;
+  background-color: rgb(247, 215, 220);
+  margin-bottom: 5vh;
+}
+.progleft {
+  padding-top: 5vh;
+  padding-left: 5vw;
+  box-sizing: border-box;
+}
+.progRight {
+  padding-top: 5vh;
+  padding-left: 5vw;
+  box-sizing: border-box;
+}
+.Aboutprogram span {
+  /* margin-left: 20px; */
+  margin-top: 20px;
+}
+.Aboutprogram {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  /* border: 2px solid black; */
+}
+.imgContain {
+  align-self: flex-start;
+  min-height: 40px;
+  min-width: 40px;
+  display: block;
+  margin-right: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  border: 2px solid rgb(246, 203, 203);
+  color: rgb(245, 92, 92);
+}
+.Applynow a {
+  text-decoration: none;
   color: white;
 }
